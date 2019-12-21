@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(1, 1, 14);
+}
+.img{
+    
+    margin-top: -140px;
+    
+
+}
+.topic h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 360px;
+    color: bisque;
+    
+}
+.para p{
+    margin-top:100px;
+    float:right;
+    margin-right: 50px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:-160px;
+    float: right;
+    margin-left: 400px;
+    
+}
+
+
+.container p{
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+ .bar-links{
+    margin-top: 50px;
+    margin-left:350px;
+    float: center;
+
+    
+}
+.bar-links ul{
+    list-style:none;
+}
+.bar-links ul li{
+    display:inline-block;
+}
+
+    
+.bar-links ul li a{
+    
+    padding:12px;
+    display:inline;
+    background-color:transparent;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    
+    
+    
+}
+.bar-links ul li a:hover{
+    background:rgb(109, 107, 107);
+
+}

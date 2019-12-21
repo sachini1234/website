@@ -1,0 +1,72 @@
+
+body{
+    background-color: rgb(3, 3, 3);
+}
+.content {
+    float: right;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-right: 200px;
+    margin-top:-600px;
+}
+.para{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 170px;
+    margin-top:-450px;
+    float: right;
+    color: gray;
+    text-align: center;
+}
+.img{
+    height: 100%;
+}
+.container{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:-60px;
+    margin-right: 70px;
+    float: right;
+}
+
+
+.container p{
+    color: white;
+    font-size: 15px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bar-links{
+    margin-top: 50px;
+    margin-left:350px;
+
+    
+}
+.bar-links ul{
+    list-style:none;
+}
+.bar-links ul li{
+    display:inline-block;
+}
+
+    
+.bar-links ul li a{
+    
+    padding:12px;
+    display:inline;
+    background-color:transparent;
+    color: slategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    
+    
+    
+}
+.bar-links ul li a:hover{
+    background:rgb(245, 241, 241);
+
+}

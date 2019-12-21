@@ -1,0 +1,129 @@
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-left: 480px;
+  margin-top:50px;
+}
+
+
+ .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -15px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  left  : 0;
+  border-radius: 3px 0 0 3px;
+}
+ .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color:black;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dot{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color:black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:white;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ Body{
+background-color:pink ;  
+
+}
+.topic h1{
+  color:black;
+  font-size: 60px;
+  float:center;
+  margin-left: 450px;
+  margin-top: 90px;
+}
+.container{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top:100px;
+}
+
+.container p{
+    color: black;
+    font-size: 15px;
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-bar-links{
+    margin-top: 70px;
+    margin-left:300px;
+
+    
+}
+.top-bar-links ul{
+    list-style:none;
+}
+.top-bar-links ul li{
+    display:inline-block;
+}
+
+    
+.top-bar-links ul li a{
+    
+    padding:12px;
+    display:inline;
+    background-color:transparent;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;    
+}
+.top-bar-links ul li a:hover{
+    background:rgb(238, 3, 148);
+
+}
