@@ -35,11 +35,14 @@
 .text {
   color:black;
   font-size: 15px;
+  font-weight: bold;
   padding: 8px 12px;
   bottom: 8px;
+  margin-left: 100px;
   width: 100%;
   margin-top: 20px;
-  text-align: center;
+  /*text-align: center;*/
+  clear: left;
 }
 
 .dot{
@@ -47,12 +50,16 @@
   height: 13px;
   width: 13px;
   margin: 0 2px;
+  margin-left: 5px;
   background-color:black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
+.dotset{
+  margin-left: -50px;
+}
 .active, .dot:hover {
   background-color:white;
 }
